@@ -1,0 +1,64 @@
+{
+  "Reviews": [
+    {
+      "Title": "Disease",
+      "Author": "Lady Gaga",
+      "Category": "Song",
+      "Metacritic Score": 0.5,
+      "Our Score": "2/5",
+      "Stream or Skip?": "Stream ",
+      "Logline": "A stifled, but exciting effort.",
+      "slug": "disease"
+    },
+    {
+      "Title": "Short N' Sweet",
+      "Author": "Sabrina Carpenter",
+      "Category": "Album",
+      "Metacritic Score": 0.82,
+      "Our Score": "5/5",
+      "Stream or Skip?": "Stream",
+      "Logline": "Pure pop confection.",
+      "slug": "short-n-sweet"
+    },
+    {
+      "Title": "Emilia Perez",
+      "Author": "Jacques Audiard",
+      "Category": "Film",
+      "Metacritic Score": 0.72,
+      "Our Score": "3/5",
+      "Stream or Skip?": "Stream",
+      "Logline": "A messy, audacious thrill.",
+      "slug": "emilia-perez"
+    },
+    {
+      "Title": "Dune: Prophecy",
+      "Author": "HBO Max",
+      "Category": "TV",
+      "Metacritic Score": 0.63,
+      "Our Score": "2/5",
+      "Stream or Skip?": "Skip",
+      "Logline": "#NotMyDune",
+      "slug": "dune-prophecy"
+    },
+    {
+      "Title": "Wicked",
+      "Author": "Universal",
+      "Category": "Film",
+      "Metacritic Score": 0.73,
+      "Our Score": "3/5",
+      "Stream or Skip?": "Stream",
+      "Logline": "Ariana. That's it. That's the tweet.",
+      "slug": "wicked"
+    },
+    {
+      "Title": "The Tortured Poets Department",
+      "Author": "Taylor Swift",
+      "Category": "Album",
+      "Metacritic Score": 0.76,
+      "Our Score": "5/5",
+      "Stream or Skip?": "Stream",
+      "Logline": "Top of her game.",
+      "slug": "the-tortured-poets-department"
+    }
+  ]
+}
