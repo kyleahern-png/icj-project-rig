@@ -8,15 +8,16 @@
 <div class="container">
   <h1>THE POPTOMIST</h1>
   <p>we like a lot, so you know it's bad if we say it.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
-  <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
-      </div>
-    {% endfor %}
+  <h2>Latest Reviews</h2>
+<div class="row">
+  {% for review in Reviews.Reviews %}
+  <div class="col-sm-4">
+    <h3><a href="reviews/{{ review.slug }}.html">{{ review.Title }}</a></h3>
+    <p><strong>Author:</strong> {{ review.Author }}</p>
+    <p><strong>Category:</strong> {{ review.Category }}</p>
+    <p>{{ review.Logline }}</p>
+  </div>
+  {% endfor %}
   </div>
   <h2>Bookstores loop</h2>
   <p>This loops through data that came from a Google Sheet example.</p>
