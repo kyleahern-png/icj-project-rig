@@ -1,22 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>{% block page_title %}Default title{% endblock %}</title>
-    <meta name="description" content="{% block page_description %}Default description{% endblock %}">
+    <title>{% block page_title %}Default Title{% endblock %}</title>
+    <meta name="description" content="{% block page_description %}Default Description{% endblock %}">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ relative_path }}css/main.css">
   </head>
   <body>
-    {% include "_includes/nav.njk" %}
-
+    {% include '_includes/nav.njk' %}
     {% block content %}{% endblock %}
-
-    {% include "_includes/footer.njk" %}
-
-    <script src="{{ relative_path }}js/jquery.js"></script>
+    {% include '_includes/footer.njk' %}
     <script src="{{ relative_path }}js/bootstrap.bundle.min.js"></script>
     <script src="{{ relative_path }}js/scripts.js"></script>
   </body>

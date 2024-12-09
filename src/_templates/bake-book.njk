@@ -2,20 +2,25 @@
 
 {% set relative_path = "../" %}
 
-{% block page_title %}{{ title }}{% endblock %}
+{% block page_title %}{{ Title }}{% endblock %}
 
-{% block page_description %}{{ title }} by {{ author }}{% endblock %}
+{% block page_description %}Review of {{ Title }} by {{ Author }}{% endblock %}
 
 {% block content %}
-  <article class="container">
-    <div class="row">
-      <div class="col-sm-4">
-          <img src="../img/{{ slug }}.jpg" alt="" class="img-fluid mb-4">
-      </div>
-      <div class="col-sm-8">
-          <h1>{{ title }}</h1>
-          <p>{{ blurb | safe }}</p>
-      </div>
+<article class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{{ relative_path }}img/{{ slug }}.jpg" alt="{{ Title }}" class="img-fluid mb-4">
     </div>
-  </article>
+    <div class="col-sm-8">
+      <h1>{{ Title }}</h1>
+      <p><strong>Category:</strong> {{ Category }}</p>
+      <p><strong>Author:</strong> {{ Author }}</p>
+      <p><strong>Metacritic Score:</strong> {{ Metacritic_Score }}</p>
+      <p><strong>Our Score:</strong> {{ Our_Score }}</p>
+      <p><strong>Recommendation:</strong> {{ Stream_or_Skip }}</p>
+      <p>{{ Logline }}</p>
+    </div>
+  </div>
+</article>
 {% endblock %}

@@ -1,0 +1,35 @@
+{
+  "Sheet1": [
+    {
+      "Title": "Reputation (Taylor's Version)",
+      "How optimistic are we?": "Through the roof, kicking our feet, anxiously awating.",
+      "Key Artists": "Taylor Swift",
+      "Description": "Bombastic, divisive pop classic gets new school reimagining. Look what you made her do.",
+      "Category.": "Album",
+      "Slug": "reputation-taylors-version"
+    },
+    {
+      "Title": "Eddington",
+      "How optimistic are we?": "Waiting to gag fiercely.",
+      "Key Artists": "Ari Aster, Emma Stone, Joaquin Phoenix.",
+      "Description": "Our favorite horror auteur linking up with our favorite actors? Tickets already bought.",
+      "Category.": "Film",
+      "Slug": "eddington"
+    },
+    {
+      "Title": "The Life of Chuck",
+      "How optimistic are we?": "We're waiting to see how good it is. Consider our eyebrow raised.",
+      "Key Artists": "Stephen King, Mike Flanagan, Tom Hiddleston.",
+      "Description": "A humanistic adaptation of a King classic.",
+      "Category.": "Film",
+      "Slug": "the-life-chuck"
+    },
+    {
+      "Title": "LG7",
+      "How optimistic are we?": "In Gaga we trust.",
+      "Key Artists": "Lady Gaga",
+      "Description": "Big star, bigger expectations.",
+      "Category.": "Album"
+    }
+  ]
+}

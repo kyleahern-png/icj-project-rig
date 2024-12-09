@@ -9,15 +9,20 @@
       "fileId": "1dfDr7m1V_UURUa67cGJ_sdY9Q3UtpwLxBaqNQdF9mWg",
       "type": "sheet",
       "name": "Reviews"
+    },
+    {
+      "fileId": "1vornGQ5bnrpYj_CjhCOj3qQ50DeYZvFt9qk8dqAMmYI",
+      "type": "sheet",
+      "name": "Upcoming"
     }
   ],
   "to_bake": [
     {
       "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "data": "Reviews",
+      "array": "Reviews",
       "slug": "slug",
-      "path": "books"
+      "path": "reviews"
     }
   ]
 }

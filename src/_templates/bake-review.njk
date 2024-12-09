@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ Title }}{% endblock %}
+
+{% block page_description %}Review of {{ Title }}{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>{{ Title }}</h1>
+      <p><strong>Category:</strong> {{ Category }}</p>
+      <p><strong>Author:</strong> {{ Author }}</p>
+      <p><strong>Metacritic Score:</strong> {{ Metacritic Score }}</p>
+      <p><strong>Our Score:</strong> {{ Our Score }}</p>
+      <p><strong>Recommendation:</strong> {{ Stream or Skip? }}</p>
+      <p>{{ Logline }}</p>
+    </div>
+  </div>
+</article>
+{% endblock %}
